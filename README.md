@@ -1,5 +1,7 @@
 # Projeto 1 — Minha identidade na Web
 
+[🌐 Abrir o site publicado](https://nathan1234umbelino-beep.github.io/projeto1-minha-identidade-na-web/)
+
 Atividade acadêmica da disciplina Desenvolvimento Front-End para Web (2026/2).
 
 Site pessoal de Nathan Umbelino do Carmo, composto pela página inicial (`index.html`) e uma página complementar sobre videogames antigos (`paginas/interesses.html`).
