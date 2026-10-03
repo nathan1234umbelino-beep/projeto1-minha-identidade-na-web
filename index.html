@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nathan Umbelino do Carmo | Minha identidade na Web</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="cabecalho">
+    <p class="marca">Nathan <span>•</span> Minha identidade na Web</p>
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre mim</a>
+      <a href="#interesses">Interesses</a>
+      <a href="#estudos">Estudos</a>
+      <a href="paginas/interesses.html">Meu hobby</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="apresentacao" aria-labelledby="titulo-principal">
+      <div>
+        <p class="sobretitulo">Desenvolvimento Front-End para Web · 2026/2</p>
+        <h1 id="titulo-principal">Olá, eu sou Nathan.</h1>
+        <p class="destaque">Estou começando a transformar minha curiosidade por tecnologia em conhecimento para criar coisas na Web.</p>
+        <a class="botao-link" href="#sobre">Conheça minha história <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="avatar">
+        <img src="imagens/avatar-nathan.svg" alt="Avatar ilustrado de uma pessoa com cabelo escuro e camiseta preta, diante de um fundo vermelho">
+        <figcaption>Um avatar ilustrado — sem foto pessoal.</figcaption>
+      </figure>
+    </section>
+
+    <section id="sobre" class="bloco" aria-labelledby="titulo-sobre">
+      <p class="sobretitulo">Um pouco da minha trajetória</p>
+      <h2 id="titulo-sobre">Sobre mim</h2>
+      <p>Sempre tive interesse pela área de tecnologia, mas foi no meu primeiro emprego que essa curiosidade começou a ganhar forma. No dia a dia, eu usava bastante o pacote Office para organizar informações, preparar documentos e resolver tarefas. Aos poucos, passei a prestar atenção não só no resultado, mas também em como as ferramentas funcionavam e em tudo o que a tecnologia permitia fazer.</p>
+      <p>Essa experiência despertou em mim vontade de aprender mais e foi o começo do meu interesse por programação. Hoje, no curso, quero construir uma base sólida em desenvolvimento Web, praticar com projetos próprios e entender como uma ideia pode virar uma página interativa. Também gosto de videogames antigos e tenho curiosidade em descobrir como a programação dá vida aos jogos.</p>
+    </section>
+
+    <section id="interesses" class="bloco bloco-colorido" aria-labelledby="titulo-interesses">
+      <p class="sobretitulo">O que me inspira</p>
+      <h2 id="titulo-interesses">Interesses e objetivos</h2>
+      <div class="colunas">
+        <div>
+          <h3>Meus interesses</h3>
+          <ul>
+            <li>Jogar videogames antigos e conhecer clássicos.</li>
+            <li>Descobrir como a programação é usada para criar jogos.</li>
+            <li>Sair, conhecer lugares e aproveitar o tempo com outras pessoas.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>O que quero aprender</h3>
+          <ol>
+            <li>Aprender e praticar a estrutura do HTML.</li>
+            <li>Melhorar meu uso de CSS para criar páginas bem organizadas.</li>
+            <li>Estudar JavaScript para adicionar interatividade aos projetos.</li>
+          </ol>
+        </div>
+      </div>
+      <p>Também preparei uma página sobre meu interesse por jogos clássicos: <a href="paginas/interesses.html">conheça meu hobby</a>.</p>
+    </section>
+
+    <section id="estudos" class="bloco" aria-labelledby="titulo-estudos">
+      <p class="sobretitulo">Meu ponto de partida</p>
+      <h2 id="titulo-estudos">Estudos e próximos passos</h2>
+      <div class="tabela-rolagem">
+        <table>
+          <caption>Temas que quero desenvolver durante o curso</caption>
+          <thead><tr><th scope="col">Tema</th><th scope="col">Conhecimento atual</th><th scope="col">Próximo passo</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">HTML</th><td>Conhecendo a estrutura e as tags semânticas.</td><td>Praticar páginas bem organizadas e acessíveis.</td></tr>
+            <tr><th scope="row">CSS</th><td>Quero melhorar e ganhar mais prática.</td><td>Estudar cores, tipografia e organização visual.</td></tr>
+            <tr><th scope="row">JavaScript</th><td>Tenho curiosidade sobre a linguagem.</td><td>Aprender fundamentos e criar interações simples.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="midia" class="bloco bloco-midia" aria-labelledby="titulo-midia">
+      <div>
+        <p class="sobretitulo">Um toque retrô</p>
+        <h2 id="titulo-midia">Som de inspiração</h2>
+        <p>Incluí uma sequência melódica original de tons suaves. Ela foi criada para acompanhar a página; use os controles para ouvir ou pausar.</p>
+        <audio controls preload="metadata">
+          <source src="midias/som-retro.wav" type="audio/wav">
+          Seu navegador não oferece suporte ao elemento de áudio.
+        </audio>
+        <p class="nota">Áudio original sintetizado para este projeto, sem material de terceiros.</p>
+      </div>
+    </section>
+
+    <section id="contato" class="bloco" aria-labelledby="titulo-contato">
+      <p class="sobretitulo">Uma demonstração</p>
+      <h2 id="titulo-contato">Deixe uma mensagem</h2>
+      <p class="nota">Formulário demonstrativo - os dados não serão enviados.</p>
+      <form>
+        <div class="campo"><label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required></div>
+        <div class="campo"><label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="campo"><label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="4" required></textarea></div>
+        <button type="button">Enviar mensagem (demonstração)</button>
+      </form>
+    </section>
+
+    <section class="bloco links" aria-labelledby="titulo-links">
+      <h2 id="titulo-links">Links que quero conhecer</h2>
+      <p><a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development" target="_blank" rel="noopener noreferrer">MDN: aprender desenvolvimento Web</a></p>
+      <p><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools: referências e exemplos de HTML, CSS e JavaScript</a></p>
+    </section>
+  </main>
+
+  <footer><p>Feito por Nathan Umbelino do Carmo · Projeto 1 — Minha identidade na Web</p><a href="#titulo-principal">Voltar ao início ↑</a></footer>
+</body>
+</html>
